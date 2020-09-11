@@ -1,0 +1,11 @@
+<h2>Number</h2>
+
+<div class="jumbotron">
+
+    <label>Escriba un numero con decimales</label><br>
+    <input type="text" [(ngModel)]="Number" /><br>
+    
+   
+<label> {{Number|number: '1.0-0'}}</label><br>
+<label> {{Number|number: '1.0-4'}}</label><br>
+</div>

@@ -1,0 +1,9 @@
+<h2>Currency</h2>
+
+<div class="jumbotron">
+    <input type="text" [(ngModel)]="Moneda" /><br>
+    
+   
+<label> {{Moneda|currency}}</label><br>
+<label> {{Moneda|currency: 'C$':"symbol"}}</label><br>
+</div>
